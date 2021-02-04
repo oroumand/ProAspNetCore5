@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Core.Domain", "src\01. Core\CourseStore.Core.Domain\CourseStore.Core.Domain.csproj", "{301D878A-8CDB-43AE-BEA3-7DF266E6FDBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Core", "01. Core", "{FDAAA526-E104-46F8-91F3-9156B2C51D10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Infra", "02. Infra", "{BF31F1C7-0772-40D6-B445-8ED19AEBBD88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Infra.Data.Sql", "src\02. Infra\CourseStore.Infra.Data.Sql\CourseStore.Infra.Data.Sql.csproj", "{7B709023-508C-4445-887A-6344A9B80AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Endpoitns", "03. Endpoitns", "{E0B151C1-AD31-4F0C-A052-EF51BC849571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Endpoints.CourseConsole", "src\03. Endpoints\CourseStore.Endpoints.CourseConsole\CourseStore.Endpoints.CourseConsole.csproj", "{0D3070FC-EA2E-4FFF-993C-C67061A8FD33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{301D878A-8CDB-43AE-BEA3-7DF266E6FDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301D878A-8CDB-43AE-BEA3-7DF266E6FDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301D878A-8CDB-43AE-BEA3-7DF266E6FDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301D878A-8CDB-43AE-BEA3-7DF266E6FDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B709023-508C-4445-887A-6344A9B80AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B709023-508C-4445-887A-6344A9B80AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B709023-508C-4445-887A-6344A9B80AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B709023-508C-4445-887A-6344A9B80AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3070FC-EA2E-4FFF-993C-C67061A8FD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3070FC-EA2E-4FFF-993C-C67061A8FD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3070FC-EA2E-4FFF-993C-C67061A8FD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3070FC-EA2E-4FFF-993C-C67061A8FD33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{301D878A-8CDB-43AE-BEA3-7DF266E6FDBA} = {FDAAA526-E104-46F8-91F3-9156B2C51D10}
+		{7B709023-508C-4445-887A-6344A9B80AE9} = {BF31F1C7-0772-40D6-B445-8ED19AEBBD88}
+		{0D3070FC-EA2E-4FFF-993C-C67061A8FD33} = {E0B151C1-AD31-4F0C-A052-EF51BC849571}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DDE8F38-BFA9-4619-A9C0-844EA2F8AE79}
+	EndGlobalSection
+EndGlobal

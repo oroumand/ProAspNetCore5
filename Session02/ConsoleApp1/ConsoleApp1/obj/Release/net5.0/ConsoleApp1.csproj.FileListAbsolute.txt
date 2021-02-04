@@ -1,0 +1,15 @@
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ConsoleApp1.exe
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ConsoleApp1.deps.json
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ConsoleApp1.runtimeconfig.json
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ConsoleApp1.runtimeconfig.dev.json
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ConsoleApp1.dll
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ref\ConsoleApp1.dll
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\bin\Release\net5.0\ConsoleApp1.pdb
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.AssemblyInfo.cs
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.dll
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ref\ConsoleApp1.dll
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.pdb
+G:\Src\Vs\NET 5 Courses\ProAspNetCore5\Session02\ConsoleApp1\ConsoleApp1\obj\Release\net5.0\ConsoleApp1.genruntimeconfig.cache
