@@ -7,6 +7,7 @@ namespace Session04.ConfigDb.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            //migrationBuilder.Sql("Create View ...");
             migrationBuilder.CreateTable(
                 name: "Student",
                 schema: "config",
