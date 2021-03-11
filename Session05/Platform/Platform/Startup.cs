@@ -60,6 +60,7 @@ namespace Platform
             //        await httpcontext.Response.WriteAsync("There is a key in query string\n");
             //    }
             //    await next();
+
             //});
 
             //app.Use(async (context, next) =>
