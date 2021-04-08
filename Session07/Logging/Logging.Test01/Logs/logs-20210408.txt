@@ -1,0 +1,60 @@
+2021-04-08 16:21:09.128 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:21:09.134 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:21:09.137 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:21:09.139 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:21:09.141 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:34:21.684 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:34:21.689 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:34:21.691 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:34:21.693 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:34:21.696 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:34:30.864 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log
+2021-04-08 16:34:30.888 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:34:57.866 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:34:57.872 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:34:57.875 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:34:57.877 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:34:57.878 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:35:07.248 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log
+2021-04-08 16:35:07.266 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:35:33.986 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:35:33.990 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:35:33.993 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:35:33.995 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:35:33.996 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:35:42.621 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log
+2021-04-08 16:35:42.641 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:36:26.343 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:36:26.348 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:36:26.350 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:36:26.352 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:36:26.354 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:36:33.438 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log
+2021-04-08 16:36:33.461 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:37:14.079 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:37:14.085 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:37:14.088 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:37:14.090 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:37:14.092 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:38:48.994 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:38:49.000 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:38:49.003 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:38:49.005 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:38:49.007 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:38:55.971 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log
+2021-04-08 16:38:55.990 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:44:42.149 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:44:42.169 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:44:42.172 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:44:42.174 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:44:42.177 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:44:52.190 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log 04/08/2021 16:44:52
+2021-04-08 16:44:52.207 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:48:23.423 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:5001
+2021-04-08 16:48:23.444 +04:30 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5000
+2021-04-08 16:48:23.447 +04:30 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2021-04-08 16:48:23.449 +04:30 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2021-04-08 16:48:23.452 +04:30 [Information] Microsoft.Hosting.Lifetime: Content root path: G:\Src\NET 5 Courses\ProAspNetCore5\Session07\Logging\Logging.Test01
+2021-04-08 16:48:48.675 +04:30 [Information] Logging.Test01.Controllers.WeatherForecastController: My Information Log 04/08/2021 16:48:48
+2021-04-08 16:48:48.703 +04:30 [Warning] Logging.Test01.Controllers.WeatherForecastController: My Warning Log
+2021-04-08 16:55:26.007 +04:30 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...

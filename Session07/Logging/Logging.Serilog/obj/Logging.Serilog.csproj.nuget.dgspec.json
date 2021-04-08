@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session07\\Logging\\Logging.Serilog\\Logging.Serilog.csproj": {}
+  },
+  "projects": {
+    "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session07\\Logging\\Logging.Serilog\\Logging.Serilog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session07\\Logging\\Logging.Serilog\\Logging.Serilog.csproj",
+        "projectName": "Logging.Serilog",
+        "projectPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session07\\Logging\\Logging.Serilog\\Logging.Serilog.csproj",
+        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
+        "outputPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session07\\Logging\\Logging.Serilog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://baget.navoshgaran.com/v3/index.json": {},
+          "http://localhost:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
