@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagement.Cache", "StateManagement.Cache\StateManagement.Cache.csproj", "{0612A917-E510-4506-A050-0DF7A5A5E6BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagement.Cache.Session", "StateManagement.Cache.Session\StateManagement.Cache.Session.csproj", "{DBC7C2CF-7A13-4BBE-A88A-392D87057AD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0612A917-E510-4506-A050-0DF7A5A5E6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0612A917-E510-4506-A050-0DF7A5A5E6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0612A917-E510-4506-A050-0DF7A5A5E6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0612A917-E510-4506-A050-0DF7A5A5E6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC7C2CF-7A13-4BBE-A88A-392D87057AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC7C2CF-7A13-4BBE-A88A-392D87057AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC7C2CF-7A13-4BBE-A88A-392D87057AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC7C2CF-7A13-4BBE-A88A-392D87057AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A934FB1-536C-4281-B19D-471191C52944}
+	EndGlobalSection
+EndGlobal
