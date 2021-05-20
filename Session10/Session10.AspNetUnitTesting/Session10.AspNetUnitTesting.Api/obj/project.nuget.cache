@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "29vZN3cogwV660Z2ANs4QnJCh9l7UTbJL2cIZNHSrSCfOiWtPMtod1vyzpsEYLC4KRhNY2CFRevu7FJj1/xNHA==",
+  "success": true,
+  "projectFilePath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session10\\Session10.AspNetUnitTesting\\Session10.AspNetUnitTesting.Api\\Session10.AspNetUnitTesting.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

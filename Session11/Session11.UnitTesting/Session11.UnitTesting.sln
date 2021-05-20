@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session11.UnitTesting.Logic", "Session11.UnitTesting.Logic\Session11.UnitTesting.Logic.csproj", "{CE78A13C-429F-4E68-B5F6-1910995B2AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session11.UnitTesting.LogicTest", "Session11.UnitTesting.LogicTest\Session11.UnitTesting.LogicTest.csproj", "{5147B0D7-CB30-4391-8E0E-921AC632FB6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE78A13C-429F-4E68-B5F6-1910995B2AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78A13C-429F-4E68-B5F6-1910995B2AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78A13C-429F-4E68-B5F6-1910995B2AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78A13C-429F-4E68-B5F6-1910995B2AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5147B0D7-CB30-4391-8E0E-921AC632FB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5147B0D7-CB30-4391-8E0E-921AC632FB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5147B0D7-CB30-4391-8E0E-921AC632FB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5147B0D7-CB30-4391-8E0E-921AC632FB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {579F0F66-EA17-40F4-91D3-C3762B6F7521}
+	EndGlobalSection
+EndGlobal

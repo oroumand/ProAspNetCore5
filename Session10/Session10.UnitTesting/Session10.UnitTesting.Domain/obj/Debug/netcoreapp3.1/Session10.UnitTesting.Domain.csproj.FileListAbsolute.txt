@@ -1,0 +1,9 @@
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\bin\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.deps.json
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\bin\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\bin\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.pdb
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\obj\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.csprojAssemblyReference.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\obj\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.AssemblyInfoInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\obj\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.AssemblyInfo.cs
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\obj\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.csproj.CoreCompileInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\obj\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session10\Session10.UnitTesting\Session10.UnitTesting.Domain\obj\Debug\netcoreapp3.1\Session10.UnitTesting.Domain.pdb
