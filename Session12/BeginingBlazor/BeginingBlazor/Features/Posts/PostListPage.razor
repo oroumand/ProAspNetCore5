@@ -1,0 +1,35 @@
+﻿@page "/"
+@inject HttpClient clinet;
+
+@if (Posts == null)
+{
+    <div class="alert alert-info">اطلاعاتی بارگذاری نشده است! صبر کنید...</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var post in Posts)
+        {
+            <div class="col-4">
+                <PostThumbnail Post="post"></PostThumbnail>
+
+            </div>
+        }
+    </div>
+}
+
+@code {
+    public IEnumerable<Post> Posts { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Posts = await clinet.GetFromJsonAsync<IEnumerable<Post>>("/sample-data/posts.json");
+        }
+        catch (Exception)
+        {
+
+            throw;
+        }
+    }
+}
