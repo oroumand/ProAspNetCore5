@@ -1,0 +1,36 @@
+﻿@inject NavigationManager _navigationManager;
+<div>
+    <input type="text" @bind="@maxAge" class="form-control form-control-lg" />
+    <input type="text" @bind="@minAge" class="form-control form-control-lg" />
+    <button class="btn btn-success" @onclick="Filter">Search</button>
+</div>
+@code {
+    private int maxAge;
+    private int minAge;
+    [Parameter]
+    public string SearchTerm { get; set; }
+    private void Filter()
+    {
+        var queryCollection = System.Web.HttpUtility.ParseQueryString("");
+        var queryString = string.Empty;
+
+        if(maxAge > 0)
+        {
+            queryCollection.Add("maxAge", maxAge.ToString());
+        }
+
+        if (minAge > 0)
+        {
+            queryCollection.Add("minAge", minAge.ToString());
+        }
+
+
+        queryString = queryCollection.ToString();
+        if (string.IsNullOrEmpty(queryString))
+        {
+            return;
+        }
+
+        _navigationManager.NavigateTo($"/search/{SearchTerm}?{queryString}");
+    }
+}

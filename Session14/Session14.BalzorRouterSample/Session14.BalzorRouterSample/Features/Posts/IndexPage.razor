@@ -1,0 +1,35 @@
+﻿@page "/"
+@inject HttpClient _httpClient
+<h3>Index</h3>
+<SearchPosts></SearchPosts>
+@if (_posts?.Any() == false)
+{
+    <div class="alert">اطلاعاتی بارگذاری نشده است.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var post in _posts)
+        {
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="@post.ImageUrl" class="card-img-top" alt="@post.Title">
+                <div class="card-body">
+                    <h5 class="card-title">@post.Title</h5>
+                    <p class="card-text">@post.Description</p>
+                    <a href="/post/@post.Id" class="btn btn-primary">بیشتر</a>
+                </div>
+            </div>
+
+        </div>
+        }
+    </div>
+}
+@code {
+    List<PostSummaryDto> _posts = new List<PostSummaryDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _posts = await _httpClient.GetFromJsonAsync<List<PostSummaryDto>>("/sample-data/blogposts.json");
+    }
+}

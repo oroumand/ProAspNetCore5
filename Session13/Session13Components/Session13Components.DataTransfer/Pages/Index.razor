@@ -1,0 +1,43 @@
+﻿@page "/"
+
+<div class="row">
+    <div class="col-6">
+        <h1>والد</h1>
+        <hr />
+        <input type="text" @bind="_inputText" />
+        @if (ChildTexts.Count > 0)
+        {
+            <ul>
+                @foreach (var item in ChildTexts)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <div class=" alert alert-danger">هنوز متنی از کامپوننت فرزند ارسال نشده است.</div>
+        }
+        <hr />
+    </div>
+    <div class="col-6">
+        <h1>فرزند</h1>
+        <hr />
+        <Child InputText="@_inputText" OutputTextChanged="GetChildText"></Child>
+    </div>
+
+</div>
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+@code
+{
+    private string _inputText;
+    private List<string> ChildTexts = new List<string>();
+    private void GetChildText(string text)
+    {
+        if (!string.IsNullOrEmpty(text))
+        {
+            ChildTexts.Add(text);
+        }
+    }
+}

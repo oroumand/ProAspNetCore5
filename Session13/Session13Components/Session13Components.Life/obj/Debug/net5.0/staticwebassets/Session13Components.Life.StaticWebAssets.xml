@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Session13Components\Session13Components.Life\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Session13Components\Session13Components.Life\obj\Debug\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>

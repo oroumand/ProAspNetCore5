@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+<ul>
+    @foreach (var message in MyMessages)
+    {
+
+        <li>@message</li>
+    }
+</ul>
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code
+{
+    public List<string> MyMessages { get; set; } = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(2000);
+        MyMessages.Add("سلام");
+        await Task.Delay(2000);
+        MyMessages.Add("حالت خوبه؟");
+        await Task.Delay(2000);
+        MyMessages.Add("مواظب خودت باش");
+    }
+}

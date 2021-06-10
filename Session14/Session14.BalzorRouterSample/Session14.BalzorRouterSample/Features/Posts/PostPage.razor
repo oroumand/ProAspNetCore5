@@ -1,0 +1,34 @@
+﻿@page "/post/{id:int}"
+@inject HttpClient _httpClient
+@using System.Linq;
+<h3>PostPage</h3>
+@if (_post != null)
+{
+    <div class="card">
+        <img src="@_post.ImageUrl" class="card-img-top" alt="@_post.Title">
+        <div class="card-body">
+            <h5 class="card-title">@_post.Title</h5>
+            <p class="card-text">@_post.Description</p>
+            <p class="card-text">@_post.Body</p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">اطلاعاتی وجود ندارد</div>
+}
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    Post _post;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var posts = await _httpClient.GetFromJsonAsync<List<Post>>("/sample-data/blogposts.json");
+        _post = posts.Where(c => c.Id == Id).FirstOrDefault();
+
+    }
+
+
+}

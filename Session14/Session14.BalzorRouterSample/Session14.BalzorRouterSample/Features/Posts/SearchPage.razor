@@ -1,0 +1,93 @@
+﻿@page "/search/{searchTerm}"
+@inject NavigationManager _navigationManager;
+@inject HttpClient _httpClient;
+@implements IDisposable;
+@using Microsoft.AspNetCore.WebUtilities;
+
+<h3>SearchPage</h3>
+<FilterPosts SearchTerm="@SearchTerm"></FilterPosts>
+<hr />
+@if (_searchedPost?.Any() == false)
+{
+    <div class="alert">اطلاعاتی بارگذاری نشده است.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var post in _searchedPost)
+        {
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="@post.ImageUrl" class="card-img-top" alt="@post.Title">
+                    <div class="card-body">
+                        <h5 class="card-title">@post.Title</h5>
+                        <p class="card-text">@post.Description</p>
+                        <a href="/post/@post.Id" class="btn btn-primary">بیشتر</a>
+                    </div>
+                </div>
+
+            </div>
+        }
+    </div>
+}
+@code {
+    [Parameter]
+    public string SearchTerm { get; set; }
+
+    //[Parameter]
+    //public int? MaxAge { get; set; }
+
+    private List<Post> _allPost = new List<Post>();
+    private List<Post> _searchedPost = new List<Post>();
+    protected override async Task OnInitializedAsync()
+    {
+        _allPost = await _httpClient.GetFromJsonAsync<List<Post>>("/sample-data/blogposts.json");
+        _navigationManager.LocationChanged += NavigationManager_LocationChanged;
+        SearchMyLocalPosts();
+
+    }
+
+    //protected override async Task OnParametersSetAsync()
+    //{
+    //    _allPost = await _httpClient.GetFromJsonAsync<List<Post>>("/sample-data/blogposts.json");
+    //}
+
+
+
+    private void NavigationManager_LocationChanged(object sender, Microsoft.AspNetCore.Components.Routing.LocationChangedEventArgs e)
+    {
+        SearchMyLocalPosts();
+    }
+
+    public void SearchMyLocalPosts()
+    {
+        var url = _navigationManager.ToAbsoluteUri(_navigationManager.Uri);
+        QueryHelpers.ParseQuery(url.Query).TryGetValue("maxAge", out var _maxAgeString);
+        QueryHelpers.ParseQuery(url.Query).TryGetValue("minAge", out var _minAgeString);
+
+        var searchPostQuery = _allPost.Where(c => c.Title.Contains(SearchTerm) || c.Description.Contains(SearchTerm) || c.Body.Contains(SearchTerm));
+        int maxAge;
+        int.TryParse(_maxAgeString, out maxAge);
+        int minAge;
+        int.TryParse(_minAgeString, out minAge);
+
+        if (maxAge > 0)
+        {
+            searchPostQuery = searchPostQuery.Where(c => c.PublishDate >= DateTime.Now.AddYears(-maxAge));
+        }
+
+        if (minAge > 0)
+        {
+            searchPostQuery = searchPostQuery.Where(c => c.PublishDate <= DateTime.Now.AddYears(-minAge));
+        }
+        _searchedPost = searchPostQuery.ToList();
+        StateHasChanged();
+
+    }
+
+    public void Dispose()
+    {
+        _navigationManager.LocationChanged -= NavigationManager_LocationChanged;
+
+    }
+}

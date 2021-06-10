@@ -1,0 +1,9 @@
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\bin\Debug\netcoreapp3.1\Refactoring.Logic.deps.json
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\bin\Debug\netcoreapp3.1\Refactoring.Logic.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\bin\Debug\netcoreapp3.1\Refactoring.Logic.pdb
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\obj\Debug\netcoreapp3.1\Refactoring.Logic.csprojAssemblyReference.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\obj\Debug\netcoreapp3.1\Refactoring.Logic.AssemblyInfoInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\obj\Debug\netcoreapp3.1\Refactoring.Logic.AssemblyInfo.cs
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\obj\Debug\netcoreapp3.1\Refactoring.Logic.csproj.CoreCompileInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\obj\Debug\netcoreapp3.1\Refactoring.Logic.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session13\Refactoring\Refactoring.Logic\obj\Debug\netcoreapp3.1\Refactoring.Logic.pdb

@@ -1,0 +1,62 @@
+﻿@page "/counter"
+@implements IDisposable
+@implements IAsyncDisposable
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        Console.WriteLine("SetParametersAsync start");
+        base.SetParametersAsync(parameters);
+        Console.WriteLine("SetParametersAsync end");
+    }
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("OnInitialized");
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("OnInitializedAsync");
+        await Task.Delay(4000);
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("OnParametersSet");
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Console.WriteLine("OnParametersSetAsync");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine($"OnAfterRender. {firstRender}");
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        Console.WriteLine($"OnAfterRenderAsync. {firstRender}");
+    }
+
+    public void Dispose()
+    {
+        Console.WriteLine("Dispose");
+    }
+    public async ValueTask DisposeAsync()
+    {
+        Console.WriteLine("DisposeAsync");
+    }
+}

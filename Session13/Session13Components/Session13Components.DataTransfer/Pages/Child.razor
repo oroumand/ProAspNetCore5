@@ -1,0 +1,44 @@
+﻿
+@if (_textList.Count > 0)
+{
+    <ul>
+        @foreach (var item in _textList)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+else
+{
+    <div class="alert alert-info">هنوز مقداری ثبت نشده است</div>
+}
+<hr />
+<input type="text" @bind="_outputText" />
+<input type="button" value="send text to parent" @onclick="SendDataToParent" />
+@code {
+
+    [Parameter]
+    public string InputText { get; set; }
+
+
+    [Parameter]
+    public EventCallback<string> OutputTextChanged { get; set; }
+
+    private string _outputText;
+
+
+    private List<string> _textList = new List<string>();
+
+    protected override void OnParametersSet()
+    {
+        if (!string.IsNullOrEmpty(InputText))
+        {
+            _textList.Add(InputText);
+        }
+    }
+
+    private async Task SendDataToParent()
+    {
+        await OutputTextChanged.InvokeAsync(_outputText);
+    }
+}

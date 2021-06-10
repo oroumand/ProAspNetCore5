@@ -1,0 +1,21 @@
+﻿@inject NavigationManager _navigationManager;
+<div class="jumbotron">
+    <h1 class="text-dark">جستجوی وبلاگ من</h1>
+    <hr />
+    <div>
+        <input @bind="_searchTerm" @bind:event="oninput" @onkeydown="searchPosts" type="text" placeholder="جستجوی مطالب وبلاگ" class="form-control form-control-lg" />
+    </div>
+</div>
+
+@code {
+    private string _searchTerm;
+
+    public void searchPosts(KeyboardEventArgs args)
+    {
+        if (args.Code != "Enter")
+            return;
+
+        _navigationManager.NavigateTo($"/Search/{_searchTerm}");
+    }
+
+}
