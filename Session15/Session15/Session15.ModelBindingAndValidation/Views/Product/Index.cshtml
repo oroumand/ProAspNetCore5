@@ -1,0 +1,36 @@
+﻿@model Session15.ModelBindingAndValidation.Models.Product
+
+<form asp-action="SaveProduct">
+    <div>
+        <label asp-for="Name">
+        </label>
+        <input class="form-control" type="text" asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="Description">
+        </label>
+        <input class="form-control" type="text" asp-for="Description" />
+    </div>
+    <div>
+        <label asp-for="Price">
+        </label>
+        <input class="form-control" type="text" asp-for="Price" />
+    </div>
+    <div>
+        <label asp-for="Category.Id">
+        </label>
+        <input class="form-control" type="text" asp-for="Category.Id" />
+    </div>
+    <input type="submit" value="Save" class="btn btn-success"/>
+</form>
+<hr />
+<form asp-action="SaveCategory">
+    <div>
+        <label asp-for="Category.Name">
+        </label>
+        <input class="form-control" type="text" name="AlirezaOroumand.Name" />
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>

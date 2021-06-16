@@ -1,0 +1,23 @@
+﻿@model Session15.ModelBindingAndValidation.Models.Category
+
+<table class="table table-bordered table-striped table-danger">
+    <tr>
+        <td>Id: </td>
+        <td>@Model.Id</td>
+    </tr>
+    <tr>
+        <td>Id: </td>
+        <td>@Model.Name</td>
+    </tr>
+</table>
+<hr />
+
+<form asp-action="SaveCategory">
+    <div>
+        <label asp-for="Name">
+        </label>
+        <input class="form-control" type="text" asp-for="Name"/>
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>

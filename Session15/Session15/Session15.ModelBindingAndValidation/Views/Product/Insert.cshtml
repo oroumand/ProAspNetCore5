@@ -1,0 +1,33 @@
+﻿@model Session15.ModelBindingAndValidation.Models.ProductInsertViewMode
+<div asp-validation-summary="ModelOnly"></div>
+<form asp-action="Insert" method="post">
+    <div>
+        <label asp-for="Name">
+        </label>
+        <input class="form-control" type="text" asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Description">
+        </label>
+        <input class="form-control" type="text" asp-for="Description" />
+        <span asp-validation-for="Description"></span>
+
+    </div>
+    <div>
+        <label asp-for="Price">
+        </label>
+        <input class="form-control" type="text" asp-for="Price" />
+        <span asp-validation-for="Price"></span>
+
+    </div>
+    <div>
+        <label asp-for="CategoryId">
+        </label>
+        <input class="form-control" type="text" asp-for="CategoryId" />
+        <span asp-validation-for="CategoryId"></span>
+
+    </div>
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
