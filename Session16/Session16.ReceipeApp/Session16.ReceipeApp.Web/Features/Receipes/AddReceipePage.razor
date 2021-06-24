@@ -1,0 +1,75 @@
+﻿@page "/add-receipe"
+@inject HttpClient _httpClient
+<h3>AddReceipePage</h3>
+<EditForm Model="receipe" OnValidSubmit="SaveReceipe">
+    @*<DataAnnotationsValidator></DataAnnotationsValidator>*@
+    <FluentValidationValidator></FluentValidationValidator>
+    @*<ValidationSummary></ValidationSummary>*@
+    <FormSection Title="اطلاعات اولیه" Description="در این قسمت اطلاعات اولیه غذا را وارد کنید">
+        <FormControlGroup LableTitle="نام غذا">
+            <InputText @bind-Value="receipe.Name" class="form-control"></InputText>
+            <ValidationMessage For="()=>receipe.Name"></ValidationMessage>
+        </FormControlGroup>
+        <FormControlGroup LableTitle="توضیحات">
+            <InputText @bind-Value="receipe.Description" class="form-control"></InputText>
+            <ValidationMessage For="()=>receipe.Description"></ValidationMessage>
+
+        </FormControlGroup>
+        <FormControlGroup LableTitle="دستور پخت">
+            <InputTextArea @bind-Value="receipe.Detaile" class="form-control"></InputTextArea>
+            <ValidationMessage For="()=>receipe.Detaile"></ValidationMessage>
+
+        </FormControlGroup>
+    </FormSection>
+    <FormSection Title="زمان طبخ" Description="در این قسمت اطلاعات مربوط به زمان طبخ را را وارد کنید">
+        <FormControlGroup LableTitle="زمان طبخ">
+            <InputNumber @bind-Value="receipe.PreparationTime" class="form-control"></InputNumber>
+        </FormControlGroup>
+    </FormSection>
+    <FormSection Title="مواد لازم" Description="مواد لازم جهت طبخ غذا را وارد کنید">
+        <div class="col-12">
+            @foreach (var item in receipe.Ingridients)
+            {
+                <div class="row">
+                    <FormControlGroup LableTitle="نام ماده تشکیل دهنده">
+                        <InputText @bind-Value="item.Name" class="form-control"></InputText>
+                        <ValidationMessage For="()=>item.Name"></ValidationMessage>
+
+                    </FormControlGroup>
+                    <FormControlGroup LableTitle="مقدار ماده تشکیل دهنده">
+                        <InputText @bind-Value="item.Value" class="form-control"></InputText>
+                        <ValidationMessage For="()=>item.Value"></ValidationMessage>
+
+                    </FormControlGroup>
+                    <div class="col-xl-4">
+                        <button type="button" class="btn btn-danger btn-block" @onclick="@(_=>receipe.Ingridients.Remove(item))">حذف</button>
+                    </div>
+                </div>
+            }
+            <div class="row">
+                <div class="text-center mt-5">
+                    <button class="btn btn-primary" type="button" @onclick="@(_=>receipe.Ingridients.Add(new Ingridient()))">
+                        افزودن مواد لازم
+                    </button>
+                </div>
+            </div>
+        </div>
+    </FormSection>
+
+    <div class="mt-4 mb-5">
+        <div class="row">
+            <div class="offset-4 col-8 text-sm-right">
+                <button class="btn btn-outline-danger" type="button" @onclick="(_=>receipe =  new Receipe())">بازنشانی</button>
+                <button class="btn btn-success" type="submit">ثبت</button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+@code {
+    private Receipe receipe = new Receipe();
+    private async Task SaveReceipe()
+    {
+        await _httpClient.PostAsJsonAsync<Receipe>("api/Receipes", receipe);
+        Console.WriteLine("Valid Submit");
+    }
+}

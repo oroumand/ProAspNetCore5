@@ -1,0 +1,14 @@
+﻿<h3 class="text-danger">@Level02FullName</h3>
+<h3 class="text-danger">@Level02FullName02</h3>
+<hr />
+<CascadingValue Value="@Level03LastName" Name="LastName">
+    <Level03></Level03>
+</CascadingValue>
+@code {
+    [CascadingParameter]
+    public string Level02FullName { get; set; }
+    [CascadingParameter(Name = "LastName")]
+    public string Level02FullName02 { get; set; }
+
+    public string Level03LastName { get; set; } = "Rezaee";
+}

@@ -1,0 +1,15 @@
+﻿<h2>Tow Way Component</h2>
+<h3>@Name</h3>
+<button @onclick="ChangeName">Change Name Inner</button>
+@code {
+    [Parameter]
+    public string Name { get; set; }
+    [Parameter]
+    public EventCallback<string> NameChanged { get; set; }
+    //public EventCallback<string> NameUpdate { get; set; }
+    private async Task ChangeName()
+    {
+        Name = $"Oroumand {DateTime.Now}";
+        await NameChanged.InvokeAsync(Name);
+    }
+}

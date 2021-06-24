@@ -1,0 +1,110 @@
+﻿@page "/add-receipe-html"
+<form>
+    <!--!-->
+    <!--!-->
+    <!--!-->
+    <!--!-->
+    <!--!-->
+    <!--!-->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="text-center">
+                <h4>اطلاعات اولیه</h4>
+                <!--!-->
+                <p class="text-secondary small">در این قسمت اطلاعات اولیه غذا را وارد کنید</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-xl-4">
+                    <div class="form-group row">
+                        <label for="Name" class="col-sm-4 col-form-label font-weight-bold text-secondary text-right text-sm-left">نام</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="Name">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4">
+                    <div class="form-group row">
+                        <label for="ShordDescription" class="col-sm-4 col-form-label font-weight-bold text-secondary text-right text-sm-left">توضیحات</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="ShordDescription">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-4">
+                    <div class="form-group row">
+                        <label for="Detail" class="col-sm-4 col-form-label font-weight-bold text-secondary text-right text-sm-left">
+                            دستور
+                            پخت
+                        </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="Detail">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--!-->
+    <!--!-->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="text-center">
+                <h4>زمان طبخ</h4>
+                <!--!-->
+                <p class="text-secondary small">
+                    اطلاعات مربوط به زمان طبخ در این قسمت ثبت می&zwnj;شود
+                </p>
+            </div>
+            <!--!-->
+            <div class="row mt-5">
+                <div class="col-xl-4 mx-auto">
+                    <div class="form-group row">
+                        <label for="Name" class="col-sm-4 col-form-label font-weight-bold text-secondary text-right text-sm-left">
+                            زمان
+                            طبخ
+                        </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="Name">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--!-->
+    <!--!-->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="text-center">
+                <h4>مواد لازم</h4>
+                <!--!-->
+                <p class="text-secondary small">مواد لازم هر غدا را در این قسمت ثبت می&zwnj;کنیم</p>
+            </div>
+            <!--!-->
+            <div class="text-center mt-5">
+                <button class="btn btn-primary" type="button">
+                    <!--!-->افزودن مواد لازم
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <!--!-->
+    <div class="mt-4 mb-5">
+        <div class="row">
+            <div class="offset-4 col-8 text-sm-right">
+                <button class="btn btn-outline-danger" type="button">
+                    <!--!-->بازنشانی
+                </button>
+                <!--!-->
+                <!--!--><button class="btn btn-success" type="submit">ثبت</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@code {
+
+}

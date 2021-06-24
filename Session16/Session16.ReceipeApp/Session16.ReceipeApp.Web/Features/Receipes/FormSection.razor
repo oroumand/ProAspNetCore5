@@ -1,0 +1,20 @@
+﻿<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <div class="text-center">
+            <h4>@Title</h4>
+            <!--!-->
+            <p class="text-secondary small">@Description</p>
+        </div>
+        <div class="row mt-5">
+            @ChildContent
+        </div>
+    </div>
+</div>
+    @code {
+        [Parameter]
+        public string Title { get; set; }
+        [Parameter]
+        public string Description { get; set; }
+        [Parameter]
+        public RenderFragment ChildContent { get; set; }
+    }

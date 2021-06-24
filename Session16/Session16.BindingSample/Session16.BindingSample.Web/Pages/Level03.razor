@@ -1,0 +1,8 @@
+﻿<h4 class="text-secondary">@Level03FullName</h4>
+<h4 class="text-secondary">@Level03FullName03</h4>
+@code {
+    [CascadingParameter]
+    public string Level03FullName { get; set; }
+    [CascadingParameter(Name = "LastName")]
+    public string Level03FullName03 { get; set; }
+}

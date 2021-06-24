@@ -1,0 +1,11 @@
+﻿@page "/cascade"
+<h1>@FirstName</h1>
+<CascadingValue Value="@FirstName">
+    <CascadingValue Value="@LastName" Name="LastName">
+        <Level01></Level01>
+    </CascadingValue>
+</CascadingValue>
+@code {
+    private string FirstName = "Alireza";
+    private string LastName = "Oroumand";
+}

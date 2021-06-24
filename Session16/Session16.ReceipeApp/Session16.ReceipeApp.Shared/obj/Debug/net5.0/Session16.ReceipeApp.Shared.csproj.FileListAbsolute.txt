@@ -1,0 +1,12 @@
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\bin\Debug\net5.0\Session16.ReceipeApp.Shared.deps.json
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\bin\Debug\net5.0\Session16.ReceipeApp.Shared.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\bin\Debug\net5.0\ref\Session16.ReceipeApp.Shared.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\bin\Debug\net5.0\Session16.ReceipeApp.Shared.pdb
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.AssemblyInfoInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.AssemblyInfo.cs
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.csproj.CoreCompileInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\ref\Session16.ReceipeApp.Shared.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.pdb
+G:\Src\NET 5 Courses\ProAspNetCore5\Session16\Session16.ReceipeApp\Session16.ReceipeApp.Shared\obj\Debug\net5.0\Session16.ReceipeApp.Shared.csproj.AssemblyReference.cache

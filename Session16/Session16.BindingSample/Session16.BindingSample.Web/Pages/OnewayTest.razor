@@ -1,0 +1,11 @@
+﻿<h3>@Name</h3>
+<button @onclick="ChangeName">Change Name Inner</button>
+@code {
+    [Parameter]
+    public string Name { get; set; }
+
+    private void ChangeName()
+    {
+        Name = $"Oroumand {DateTime.Now}";
+    }
+}
