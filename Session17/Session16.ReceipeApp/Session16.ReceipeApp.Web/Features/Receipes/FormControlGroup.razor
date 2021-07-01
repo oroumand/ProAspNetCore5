@@ -1,0 +1,17 @@
+﻿<div class="col-xl-4">
+    <div class="form-group row">
+        <label for="Name" class="col-sm-4 col-form-label font-weight-bold text-secondary text-right text-sm-left">@LableTitle</label>
+        <div class="col-sm-8">
+         @ChildContent
+
+        </div>
+    </div>
+
+</div>
+@code {
+    [Parameter]
+    public string LableTitle { get; set; }
+    [Parameter]
+
+    public RenderFragment ChildContent{ get; set; }
+}

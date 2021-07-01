@@ -1,0 +1,27 @@
+﻿@page "/calldotnet"
+@inject IJSRuntime _jsRunTime;
+<h1>Call Dotnet</h1>
+
+
+<input type="text" @bind-value="message" />
+<button class="btn btn-primary" @onclick="CallStaticComponent">Call Static</button>
+<button class="btn btn-success" @onclick="CallInstanceComponent">Call Instance</button>
+
+@code {
+    string message;
+
+    private async Task CallStaticComponent()
+    {
+        await _jsRunTime.InvokeVoidAsync("callstatic");
+
+    }
+
+
+    private async Task CallInstanceComponent()
+    {
+        var instance = new InstanceCall();
+        var objRef = DotNetObjectReference.Create<InstanceCall>(instance);
+        await _jsRunTime.InvokeVoidAsync("callinstance", objRef);
+
+    }
+}

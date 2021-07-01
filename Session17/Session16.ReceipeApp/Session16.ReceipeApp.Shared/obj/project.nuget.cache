@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lp1q0fuW2wo7lhb+7wZKx+LcRJ7ziYGOL4WYm+nBpo+b09+XF/EZNZmW9u8T/XMWielFBhUHeTJm0eZioc190Q==",
+  "success": true,
+  "projectFilePath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Shared\\Session16.ReceipeApp.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alireza\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,129 @@
+﻿@page "/add-receipe"
+@inject IMediator _mediator;
+<h3>AddReceipePage</h3>
+<EditForm EditContext="editContext" OnValidSubmit="SaveReceipe">
+    <FluentValidationValidator></FluentValidationValidator>
+    @if (IsSuccess)
+    {
+        <div class="alert alert-success">
+            عملیات ثبت دستور پخت با شناسه  @receipeId با موفقت انجام شد.
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">
+            @errorMessage
+        </div>
+    }
+    <FormSection Title="اطلاعات اولیه" Description="در این قسمت اطلاعات اولیه غذا را وارد کنید">
+        <FormControlGroup LableTitle="نام غذا">
+            <InputText @bind-Value="receipe.Name" class="form-control"></InputText>
+            <ValidationMessage For="()=>receipe.Name"></ValidationMessage>
+        </FormControlGroup>
+        <FormControlGroup LableTitle="توضیحات">
+            <InputText @bind-Value="receipe.Description" class="form-control"></InputText>
+            <ValidationMessage For="()=>receipe.Description"></ValidationMessage>
+
+        </FormControlGroup>
+        <FormControlGroup LableTitle="دستور پخت">
+            <InputTextArea @bind-Value="receipe.Detaile" class="form-control"></InputTextArea>
+            <ValidationMessage For="()=>receipe.Detaile"></ValidationMessage>
+
+        </FormControlGroup>
+    </FormSection>
+    <FormSection Title="زمان طبخ" Description="در این قسمت اطلاعات مربوط به زمان طبخ را را وارد کنید">
+        <FormControlGroup LableTitle="زمان طبخ">
+            <InputTime @bind-Value="receipe.PreparationTime"></InputTime>
+        </FormControlGroup>
+    </FormSection>
+
+    <FormSection Title="تصویر خوارکی" Description="یه عکس خوب از غذاتون بگیرید و اینجا با ما به اشتراک بذارید">
+        <FormControlGroup LableTitle="انتخاب تصویر">
+            <InputFile class="form-control-file" OnChange="ImageChanged"></InputFile>
+        </FormControlGroup>
+    </FormSection>
+
+
+    <FormSection Title="مواد لازم" Description="مواد لازم جهت طبخ غذا را وارد کنید">
+        <div class="col-12">
+            @foreach (var item in receipe.Ingridients)
+            {
+                <div class="row">
+                    <FormControlGroup LableTitle="نام ماده تشکیل دهنده">
+                        <InputText @bind-Value="item.Name" class="form-control"></InputText>
+                        <ValidationMessage For="()=>item.Name"></ValidationMessage>
+
+                    </FormControlGroup>
+                    <FormControlGroup LableTitle="مقدار ماده تشکیل دهنده">
+                        <InputText @bind-Value="item.Value" class="form-control"></InputText>
+                        <ValidationMessage For="()=>item.Value"></ValidationMessage>
+
+                    </FormControlGroup>
+                    <div class="col-xl-4">
+                        <button type="button" class="btn btn-danger btn-block" @onclick="@(_=>receipe.Ingridients.Remove(item))">حذف</button>
+                    </div>
+                </div>
+            }
+            <div class="row">
+                <div class="text-center mt-5">
+                    <button class="btn btn-primary" type="button" @onclick="@(_=>receipe.Ingridients.Add(new Ingridient()))">
+                        افزودن مواد لازم
+                    </button>
+                </div>
+            </div>
+        </div>
+    </FormSection>
+
+    <div class="mt-4 mb-5">
+        <div class="row">
+            <div class="offset-4 col-8 text-sm-right">
+                <button class="btn btn-outline-danger" type="button" @onclick="(_=>receipe =  new Receipe())">بازنشانی</button>
+                <button class="btn btn-success" type="submit">ثبت</button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+@code {
+    private Receipe receipe = new Receipe
+    {
+        PreparationTime = 70
+    };
+    private EditContext editContext;
+    private int receipeId;
+    public bool IsSuccess { get; set; }
+    public string errorMessage { get; set; }
+
+    protected override void OnInitialized()
+    {
+        editContext = new EditContext(receipe);
+        editContext.SetFieldCssClassProvider(new Session16.ReceipeApp.Web.Infrastructures.BootstrapCssClassProvider());
+    }
+
+    private async Task SaveReceipe()
+    {
+        receipeId = await _mediator.Send(new AddReceipeRequest(receipe));
+        if (receipeId == -1)
+        {
+            IsSuccess = false;
+            errorMessage = "یک خطا هنگام واکشی اطلاعات از سرور اتفاق افتاد.";
+        }
+
+        IsSuccess = true;
+        errorMessage = string.Empty;
+        receipe = new Receipe();
+
+
+    }
+
+
+    private async Task ImageChanged(InputFileChangeEventArgs args)
+    {
+        var size = args.File.Size;
+        receipe.FoodImage.FileName = args.File.Name;
+
+        using var myStream = args.File.OpenReadStream();
+        receipe.FoodImage.Content = new byte[size];
+        await myStream.ReadAsync(receipe.FoodImage.Content, 0, (int)size);
+        Console.WriteLine(receipe.FoodImage.FileName);
+    }
+}

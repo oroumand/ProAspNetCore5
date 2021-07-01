@@ -1,0 +1,16 @@
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\MediatorSample.ClientApp.exe
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\MediatorSample.ClientApp.deps.json
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\MediatorSample.ClientApp.runtimeconfig.json
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\MediatorSample.ClientApp.runtimeconfig.dev.json
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\MediatorSample.ClientApp.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\ref\MediatorSample.ClientApp.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\bin\Debug\net5.0\MediatorSample.ClientApp.pdb
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.csproj.AssemblyReference.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.AssemblyInfoInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.AssemblyInfo.cs
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.csproj.CoreCompileInputs.cache
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\ref\MediatorSample.ClientApp.dll
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.pdb
+G:\Src\NET 5 Courses\ProAspNetCore5\Session17\MediatorSample\MediatorSample.ClientApp\obj\Debug\net5.0\MediatorSample.ClientApp.genruntimeconfig.cache

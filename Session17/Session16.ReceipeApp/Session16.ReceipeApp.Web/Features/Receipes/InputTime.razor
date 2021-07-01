@@ -1,0 +1,41 @@
+﻿@inherits InputBase<int>
+
+<div class="form-group">
+    <label>ساعت</label>
+    <input type="number" class="form-control @CssClass" min="0" max="24" value="@_hours" @onchange="SetHour" />
+    <label>دقیقه</label>
+    <input type="number" class="form-control @CssClass" min="0" max="59" value="@_minuts" @onchange="SetMinut" />
+
+</div>
+@code {
+    private int _hours;
+
+    private int _minuts;
+
+    private void SetHour(ChangeEventArgs args)
+    {
+        int.TryParse(args.Value.ToString(), out _hours);
+    }
+
+    private void SetMinut(ChangeEventArgs args)
+    {
+        int.TryParse(args.Value.ToString(), out _minuts);
+    }
+    private void SetCurentvalue()
+    {
+        CurrentValue = (_hours * 60) + _minuts;
+    }
+
+
+    protected override bool TryParseValueFromString(string value, [System.Diagnostics.CodeAnalysis.MaybeNullWhen(false)] out int result, [System.Diagnostics.CodeAnalysis.NotNullWhen(false)] out string validationErrorMessage)
+    {
+        throw new NotImplementedException();
+    }
+
+    protected override void OnParametersSet()
+    {
+        _hours = Value / 60;
+        _minuts = Value % 60;
+    }
+
+}

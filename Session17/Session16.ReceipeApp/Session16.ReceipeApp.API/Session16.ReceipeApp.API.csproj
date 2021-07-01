@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Session16.ReceipeApp.Shared\Session16.ReceipeApp.Shared.csproj" />
+    <ProjectReference Include="..\Session16.ReceipeApp.Web\Session16.ReceipeApp.Web.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿@page "/calljs"
+@inject IJSRuntime _jsRunTime;
+<h1>Call Js</h1>
+
+
+<input type="text" @bind-value="message"/>
+<button class="btn btn-primary" @onclick="SayMessage">Click me</button>
+
+@code {
+    string message;
+
+    private async Task SayMessage()
+    {
+        //await _jsRunTime.InvokeVoidAsync("alert", message);
+        //await _jsRunTime.InvokeVoidAsync("saymessage", message);
+        await _jsRunTime.InvokeVoidAsync("logPerson", new Person
+        {
+             FiratName = "Alireza",
+             LastName = "Oroumand",
+             Age = 943
+        });
+
+    }
+}
