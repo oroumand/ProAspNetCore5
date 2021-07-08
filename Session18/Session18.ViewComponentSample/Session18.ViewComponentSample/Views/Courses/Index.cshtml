@@ -1,0 +1,15 @@
+﻿@model List<Course>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <td>عنوان دوره</td>
+        <td>تاریخ شروع دوره</td>
+    </tr>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person.CourseName</td>
+            <td>@person.StartDate</td>
+        </tr>
+    }
+</table>

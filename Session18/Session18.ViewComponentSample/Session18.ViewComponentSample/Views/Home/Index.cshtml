@@ -1,0 +1,20 @@
+﻿@model List<Person>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <td>نام</td>
+        <td>نام خانوادگی</td>
+        <td>تاریخ تولد</td>
+    </tr>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person.FirstName</td>
+            <td>@person.LastName</td>
+            <td>@person.BirthDate</td>
+        </tr>
+    }
+
+</table>
+
+

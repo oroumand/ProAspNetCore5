@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-4">
+            <div class="alert alert-danger">@await Component.InvokeAsync("Poco")</div>
+            <div class="alert alert-info">@await Component.InvokeAsync("PersonCounter")</div>
+
+            @await Component.InvokeAsync("PersonCounterView")
+            @*@await Component.InvokeAsync("PersonCounterView", new { viewName = "table" })*@
+           @* <vc:person-counter-view></vc:person-counter-view>*@
+            <vc:person-counter-view view-name="table"></vc:person-counter-view>
+            @await Component.InvokeAsync("PersonCounterContent")
+
+            @await Component.InvokeAsync("PersonCounterHtmlFragment")
+        </div>
+        <div class="col-8"> @RenderBody()</div>
+
+    </div>
+</body>
+</html>
