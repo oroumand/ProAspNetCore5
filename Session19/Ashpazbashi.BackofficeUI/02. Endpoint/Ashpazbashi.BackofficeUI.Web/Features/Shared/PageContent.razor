@@ -1,0 +1,10 @@
+﻿<ContentHeader PageHeader="@HeaderText"></ContentHeader>
+<section class="content">
+    @ChildContent
+</section>
+@code {
+    [Parameter]
+    public string HeaderText { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

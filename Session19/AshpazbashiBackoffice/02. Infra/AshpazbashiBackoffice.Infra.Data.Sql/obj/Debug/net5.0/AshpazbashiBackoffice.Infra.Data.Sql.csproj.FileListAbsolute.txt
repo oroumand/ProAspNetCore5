@@ -1,0 +1,15 @@
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\bin\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.deps.json
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\bin\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\bin\Debug\net5.0\ref\AshpazbashiBackoffice.Infra.Data.Sql.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\bin\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.pdb
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.pdb
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.csproj.AssemblyReference.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.AssemblyInfoInputs.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.AssemblyInfo.cs
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.csproj.CoreCompileInputs.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.csproj.CopyComplete
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\ref\AshpazbashiBackoffice.Infra.Data.Sql.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\obj\Debug\net5.0\AshpazbashiBackoffice.Infra.Data.Sql.pdb

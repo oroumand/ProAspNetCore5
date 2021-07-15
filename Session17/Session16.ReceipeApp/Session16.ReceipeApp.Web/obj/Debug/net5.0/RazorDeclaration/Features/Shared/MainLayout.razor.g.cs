@@ -13,98 +13,98 @@ namespace Session16.ReceipeApp.Web.Features.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 1 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 2 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 3 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 4 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 5 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 6 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 7 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 8 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 9 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Session16.ReceipeApp.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 10 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Session16.ReceipeApp.Web.Features.Receipes;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 11 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Session16.ReceipeApp.Web.Features.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 12 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Session16.ReceipeApp.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 13 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using Blazored.FluentValidation;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
+#line 14 "D:\Source\ProAspNetCore5\Session17\Session16.ReceipeApp\Session16.ReceipeApp.Web\_Imports.razor"
 using MediatR;
 
 #line default

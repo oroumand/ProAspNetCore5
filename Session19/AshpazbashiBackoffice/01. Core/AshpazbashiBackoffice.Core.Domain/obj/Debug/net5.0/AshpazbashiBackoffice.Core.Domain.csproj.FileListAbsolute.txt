@@ -1,0 +1,12 @@
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.deps.json
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\bin\Debug\net5.0\ref\AshpazbashiBackoffice.Core.Domain.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.pdb
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.csproj.AssemblyReference.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.AssemblyInfoInputs.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.AssemblyInfo.cs
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.csproj.CoreCompileInputs.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\ref\AshpazbashiBackoffice.Core.Domain.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.Domain\obj\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.pdb

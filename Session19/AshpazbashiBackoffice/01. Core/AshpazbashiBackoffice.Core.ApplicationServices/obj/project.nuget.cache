@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "C1H+aQgvo3iWq8fIhs/4NkXvmo+wCgTTg09DwKNcP1QInyezVXbPMBS4ZIu/yvbdl9mWLnPXjA3Bi02e4B6N8g==",
+  "success": true,
+  "projectFilePath": "D:\\Source\\ProAspNetCore5\\Session19\\AshpazbashiBackoffice\\01. Core\\AshpazbashiBackoffice.Core.ApplicationServices\\AshpazbashiBackoffice.Core.ApplicationServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alireza\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,93 @@
+﻿@page "/tags"
+@inject HttpClient _client;
+
+<PageContent HeaderText="مدیتریت تگ‌ها">
+    <Box Title="ثبت تگ">
+        <BoxContent>
+            <EditForm Model="TagForSave" OnValidSubmit="SaveTag">
+                <div class="input-group ">
+                    <InputText @bind-Value="@TagForSave.Title" class="form-control"></InputText>
+
+                    <span class="input-group-append">
+                        <button class="btn btn-danger btn-flat" type="button" @onclick="(_=>TagForSave = new Tag())">بازنشانی</button>
+                        <button class="btn btn-info btn-flat" type="submit">ثبت</button>
+                    </span>
+                </div>
+            </EditForm>
+        </BoxContent>
+    </Box>
+
+    <Box Title="لیست تگ‌ها">
+        <BoxContent>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th style="width: 350px">شناسه</th>
+                        <th>عنوان</th>
+                        <th style="width: 40px">ویرایش</th>
+                        <th style="width: 40px">حذف</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Tags != null && Tags.Count > 0)
+                    {
+                        @foreach (var item in Tags)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.Title</td>
+                                <td>
+                                    <button class="btn btn-info" @onclick="(_ => TagForSave = item)">ویرایش</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger" @onclick="(_ => TagForSave = item)">حذف</button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4">داده‌ای یافت نشد...!</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </BoxContent>
+    </Box>
+</PageContent>
+@code {
+
+    public List<Tag> Tags { get; set; }
+    public TagListRequest TagListRequest { get; set; } = new TagListRequest("/api/tags/search");
+
+    public Tag TagForSave { get; set; } = new Tag();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Tags = await _client.GetFromJsonAsync<List<Tags.Models.Tag>>(TagListRequest.RequestUrl);
+    }
+
+    private async Task SaveTag()
+    {
+        if (TagForSave.Id != Guid.Empty)
+        {
+            var addTagRequest = new AddTagRequest("/api/tags");
+
+            await _client.PutAsJsonAsync<Tag>(addTagRequest.RequestUrl, TagForSave);
+
+        }
+        else
+        {
+            var addTagRequest = new AddTagRequest("/api/tags");
+
+            await _client.PostAsJsonAsync<Tag>(addTagRequest.RequestUrl, TagForSave);
+            Tags = await _client.GetFromJsonAsync<List<Tags.Models.Tag>>(TagListRequest.RequestUrl);
+        }
+
+        TagForSave = new Tag();
+    }
+
+}

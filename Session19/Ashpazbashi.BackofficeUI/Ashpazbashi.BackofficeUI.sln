@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Endpoint", "02. Endpoint", "{C341D2BE-BCE1-4BE3-9A81-1D0D41683ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ashpazbashi.BackofficeUI.Web", "02. Endpoint\Ashpazbashi.BackofficeUI.Web\Ashpazbashi.BackofficeUI.Web.csproj", "{2783C781-0A1B-4773-B5AC-A8549BB8813E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2783C781-0A1B-4773-B5AC-A8549BB8813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2783C781-0A1B-4773-B5AC-A8549BB8813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2783C781-0A1B-4773-B5AC-A8549BB8813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2783C781-0A1B-4773-B5AC-A8549BB8813E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2783C781-0A1B-4773-B5AC-A8549BB8813E} = {C341D2BE-BCE1-4BE3-9A81-1D0D41683ECE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3285AF4F-21A7-4822-9D35-FF6DE024CD92}
+	EndGlobalSection
+EndGlobal

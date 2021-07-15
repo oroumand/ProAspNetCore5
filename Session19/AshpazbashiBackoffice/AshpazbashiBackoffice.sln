@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Core", "01. Core", "{1F8003ED-6B86-43CC-9E3D-10E7848E7DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AshpazbashiBackoffice.Core.Domain", "01. Core\AshpazbashiBackoffice.Core.Domain\AshpazbashiBackoffice.Core.Domain.csproj", "{520960FC-7215-4CEC-838F-BB327D552714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Infra", "02. Infra", "{B06F1D47-FA66-4B55-8BE3-BF1792D170CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AshpazbashiBackoffice.Infra.Data.Sql", "02. Infra\AshpazbashiBackoffice.Infra.Data.Sql\AshpazbashiBackoffice.Infra.Data.Sql.csproj", "{7BA3C5FE-86C1-4F50-91AC-E0D474A8F6DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Endpoints", "03. Endpoints", "{956A8BA7-1732-4511-A957-5545CF0A20CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AshpazbashiBackoffice.Endpoints.API", "03. Endpoints\AshpazbashiBackoffice.Endpoints.API\AshpazbashiBackoffice.Endpoints.API.csproj", "{01952834-B767-4539-97EB-5C476E7417F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AshpazbashiBackoffice.Core.ApplicationServices", "01. Core\AshpazbashiBackoffice.Core.ApplicationServices\AshpazbashiBackoffice.Core.ApplicationServices.csproj", "{819984F2-733A-4A4C-A214-3BC1A419D107}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520960FC-7215-4CEC-838F-BB327D552714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520960FC-7215-4CEC-838F-BB327D552714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520960FC-7215-4CEC-838F-BB327D552714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520960FC-7215-4CEC-838F-BB327D552714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA3C5FE-86C1-4F50-91AC-E0D474A8F6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA3C5FE-86C1-4F50-91AC-E0D474A8F6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA3C5FE-86C1-4F50-91AC-E0D474A8F6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA3C5FE-86C1-4F50-91AC-E0D474A8F6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01952834-B767-4539-97EB-5C476E7417F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01952834-B767-4539-97EB-5C476E7417F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01952834-B767-4539-97EB-5C476E7417F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01952834-B767-4539-97EB-5C476E7417F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819984F2-733A-4A4C-A214-3BC1A419D107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819984F2-733A-4A4C-A214-3BC1A419D107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819984F2-733A-4A4C-A214-3BC1A419D107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819984F2-733A-4A4C-A214-3BC1A419D107}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{520960FC-7215-4CEC-838F-BB327D552714} = {1F8003ED-6B86-43CC-9E3D-10E7848E7DF3}
+		{7BA3C5FE-86C1-4F50-91AC-E0D474A8F6DD} = {B06F1D47-FA66-4B55-8BE3-BF1792D170CE}
+		{01952834-B767-4539-97EB-5C476E7417F7} = {956A8BA7-1732-4511-A957-5545CF0A20CE}
+		{819984F2-733A-4A4C-A214-3BC1A419D107} = {1F8003ED-6B86-43CC-9E3D-10E7848E7DF3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E105A7-EBAB-4AE9-A341-34586D9E63DE}
+	EndGlobalSection
+EndGlobal

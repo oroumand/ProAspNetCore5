@@ -1,0 +1,94 @@
+﻿@page "/add-recipe"
+@inject HttpClient _client;
+
+<PageContent HeaderText="افزودن دستور پخت">
+    <Box Title="افزودن">
+        <BoxContent>
+            <EditForm Model="RecipeForAdd" OnValidSubmit="SaveRecipe">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label>عنوان</label>
+                            <InputText @bind-Value="RecipeForAdd.Title" class="form-control" placeholder="برای عنوان مقداری وارد کنید"></InputText>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label>تصویر</label>
+                            <InputFile class="form-control-file" OnChange="ImageChanged"></InputFile>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>شرح کوتاه</label>
+                    <InputText rows="3" @bind-Value="RecipeForAdd.ShortDescription" class="form-control" placeholder="توضیحات مورد نیاز خود را ثبت کنید. حد اکثر 500 کاراکتر"></InputText>
+                </div>
+                <div class="form-group">
+                    <label>دستور پخت</label>
+                    <InputTextArea rows="10" @bind-Value="RecipeForAdd.Detail" class="form-control" placeholder="آموزش نحوه پخت غذا"></InputTextArea>
+                </div>
+
+
+                <hr class="hr-success" />
+
+                <div class="col-12">
+                    @foreach (var item in RecipeForAdd.IngredientInputs)
+                    {
+                        <div class="row form-group">
+                            <div class="col-5">
+                                <InputText placeholder="عنوان" @bind-Value="item.Title" class="form-control"></InputText>
+                                <ValidationMessage For="()=>item.Title"></ValidationMessage>
+                            </div>
+                            <div class="col-5">
+                                <InputText placeholder="مقدار" @bind-Value="item.Value" class="form-control"></InputText>
+                                <ValidationMessage For="()=>item.Value"></ValidationMessage>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" class="btn btn-outline-danger btn-block" @onclick="@(_=>RecipeForAdd.IngredientInputs.Remove(item))">حذف</button>
+                            </div>
+                        </div>
+                    }
+                    <div class="row form-group">
+                        <div class="col-2 offset-10">
+                            <button class="btn btn-primary btn-block" type="button" @onclick="@(_=>RecipeForAdd.IngredientInputs.Add(new Ingredient()))">
+                                افزودن مواد لازم
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr-success" />
+                <div class="row form-group">
+                    <div class="col-2 offset-4">
+                        <button class="btn btn-danger btn-block" type="button" @onclick="(_=>RecipeForAdd = new RecipeForAdd())">بازنشانی</button>
+
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-success  btn-block" type="submit">ثبت</button>
+                    </div>
+                </div>
+            </EditForm>
+        </BoxContent>
+    </Box>
+</PageContent>
+
+@code {
+    public RecipeForAdd RecipeForAdd { get; set; } = new RecipeForAdd();
+
+
+
+    private async Task ImageChanged(InputFileChangeEventArgs args)
+    {
+        var size = args.File.Size;
+        RecipeForAdd.RecipeImage.Name = args.File.Name;
+        using var myStream = args.File.OpenReadStream();
+        RecipeForAdd.RecipeImage.FileContent = new byte[size];
+        await myStream.ReadAsync(RecipeForAdd.RecipeImage.FileContent, 0, (int)size);
+        Console.WriteLine(RecipeForAdd.RecipeImage.Name);
+    }
+    private async Task SaveRecipe()
+    {
+        string url = "/api/Recipes";
+        await _client.PostAsJsonAsync<RecipeForAdd>(url, RecipeForAdd);
+        RecipeForAdd = new RecipeForAdd();
+    }
+}

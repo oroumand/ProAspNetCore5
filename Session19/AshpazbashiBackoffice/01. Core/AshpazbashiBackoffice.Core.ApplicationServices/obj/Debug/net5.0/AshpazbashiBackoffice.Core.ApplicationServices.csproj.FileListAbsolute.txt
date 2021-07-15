@@ -1,0 +1,15 @@
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.csproj.AssemblyReference.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.AssemblyInfoInputs.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.AssemblyInfo.cs
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.csproj.CoreCompileInputs.cache
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\bin\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.deps.json
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\bin\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\bin\Debug\net5.0\ref\AshpazbashiBackoffice.Core.ApplicationServices.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\bin\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.pdb
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\bin\Debug\net5.0\AshpazbashiBackoffice.Core.Domain.pdb
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.csproj.CopyComplete
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\ref\AshpazbashiBackoffice.Core.ApplicationServices.dll
+D:\Source\ProAspNetCore5\Session19\AshpazbashiBackoffice\01. Core\AshpazbashiBackoffice.Core.ApplicationServices\obj\Debug\net5.0\AshpazbashiBackoffice.Core.ApplicationServices.pdb

@@ -992,11 +992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.API\\Session16.ReceipeApp.API.csproj",
+      "projectUniqueName": "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.API\\Session16.ReceipeApp.API.csproj",
       "projectName": "Session16.ReceipeApp.API",
-      "projectPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.API\\Session16.ReceipeApp.API.csproj",
+      "projectPath": "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.API\\Session16.ReceipeApp.API.csproj",
       "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-      "outputPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.API\\obj\\",
+      "outputPath": "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1007,19 +1007,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://baget.navoshgaran.com/v3/index.json": {},
-        "http://localhost:5000/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Shared\\Session16.ReceipeApp.Shared.csproj": {
-              "projectPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Shared\\Session16.ReceipeApp.Shared.csproj"
+            "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Shared\\Session16.ReceipeApp.Shared.csproj": {
+              "projectPath": "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Shared\\Session16.ReceipeApp.Shared.csproj"
             },
-            "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Web\\Session16.ReceipeApp.Web.csproj": {
-              "projectPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Web\\Session16.ReceipeApp.Web.csproj"
+            "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Web\\Session16.ReceipeApp.Web.csproj": {
+              "projectPath": "D:\\Source\\ProAspNetCore5\\Session17\\Session16.ReceipeApp\\Session16.ReceipeApp.Web\\Session16.ReceipeApp.Web.csproj"
             }
           }
         }
