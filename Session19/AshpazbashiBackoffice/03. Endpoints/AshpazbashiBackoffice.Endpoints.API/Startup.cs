@@ -73,7 +73,7 @@ namespace AshpazbashiBackoffice.Endpoints.API
                 app.UseMiddleware<ApiExceptionMiddleware>();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseCors(c =>
             {
                 c.AllowAnyMethod();

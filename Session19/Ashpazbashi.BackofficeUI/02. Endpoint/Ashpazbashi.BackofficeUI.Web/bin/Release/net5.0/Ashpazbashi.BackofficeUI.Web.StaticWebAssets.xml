@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\Source\ProAspNetCore5\Session19\Ashpazbashi.BackofficeUI\02. Endpoint\Ashpazbashi.BackofficeUI.Web\bin\Release\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Source\ProAspNetCore5\Session19\Ashpazbashi.BackofficeUI\02. Endpoint\Ashpazbashi.BackofficeUI.Web\obj\Release\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>

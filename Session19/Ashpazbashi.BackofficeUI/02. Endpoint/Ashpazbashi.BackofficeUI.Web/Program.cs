@@ -18,7 +18,7 @@ namespace Ashpazbashi.BackofficeUI.Web
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5001/") });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:8000/") });
             builder.Services.AddScoped<ITagPageViewModel, TagPageViewModel>();
             await builder.Build().RunAsync();
         }
