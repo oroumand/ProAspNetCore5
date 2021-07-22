@@ -1,0 +1,18 @@
+﻿@model Dictionary<string, string>
+
+@if (Model?.Any() == true)
+{
+<table>
+    <tr>
+        <td>Key</td>
+        <td>Value</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Key</td>
+            <td>@item.Value</td>
+        </tr>
+    }
+</table>
+}
