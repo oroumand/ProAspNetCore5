@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2AyFzcXyiNedNqpt3mSnfae9XC5PCnq9mmWYKEfu19DpD3DyxX83WfnsSTdUHHEn7EDTV/zwud2JHzBTaonMFA==",
+  "success": true,
+  "projectFilePath": "D:\\Source\\ProAspNetCore5\\Session21\\Session21.Security\\Session21.Security.XssSample\\Session21.Security.XssSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alireza\\.nuget\\packages\\nwebsec.aspnetcore.core\\3.0.0\\nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\nwebsec.aspnetcore.middleware\\3.0.0\\nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

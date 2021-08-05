@@ -1,0 +1,26 @@
+﻿@model System.Data.SqlClient.SqlDataReader
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<form method="get">
+    <input type="text" class="form-control" name="searchTerm"/>
+    <input type="submit" value="Search" class="btn btn-success" />
+</form>
+<table class="table table-bordered table-danger table-striped">
+    <tr>
+        <td>Id</td>
+        <td>LastName</td>
+    </tr>
+    @while (Model.Read())
+    {
+        <tr>
+            <td>@Model[0].ToString()</td>
+            <td>@Model[1].ToString()</td>
+        </tr>
+    }
+</table>

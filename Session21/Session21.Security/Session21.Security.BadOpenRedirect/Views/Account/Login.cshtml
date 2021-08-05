@@ -1,0 +1,8 @@
+﻿@model Session21.Security.BadOpenRedirect.Controllers.LoginModel
+    <span>ورود ناموفق بود دوباره وارد شود.</span>
+    <form method="post">
+        <input type="text" asp-for="UserName" />
+        <input type="password" asp-for="Password" />
+        <input type="hidden" asp-for="ReturnUrl" />
+        <input type="submit" value="Login" />
+    </form>

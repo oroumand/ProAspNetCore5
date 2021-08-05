@@ -13,70 +13,70 @@ namespace Session17.JsIntrop.Web.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 1 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 2 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 3 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 4 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 5 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 6 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 7 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 8 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 9 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Session17.JsIntrop.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
+#line 10 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\_Imports.razor"
 using Session17.JsIntrop.Web.Shared;
 
 #line default
@@ -91,7 +91,7 @@ using Session17.JsIntrop.Web.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "G:\Src\NET 5 Courses\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\Pages\Counter.razor"
+#line 9 "D:\Source\ProAspNetCore5\Session17\Session17.JsIntrop\Session17.JsIntrop.Web\Pages\Counter.razor"
        
     private int currentCount = 0;
 

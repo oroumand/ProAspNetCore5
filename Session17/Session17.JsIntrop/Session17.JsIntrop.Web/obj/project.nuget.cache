@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RHdI+/5fx7ACNZ2LPnh6a02MyjgzJ9w8khm1jbUWdPthLJVk6HCrnIlkacy879d6Tgw8wuMCRvqUiQkaen3Xog==",
+  "dgSpecHash": "nvTDI7p0amVfxk6l5MPd3bnafV7wkMFrgljuLmlqwOot1+FMietyHwa6P+a1UTU8ckeeKZw33CmmFXJe3Kcw3A==",
   "success": true,
-  "projectFilePath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj",
+  "projectFilePath": "D:\\Source\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.7\\microsoft.aspnetcore.authorization.5.0.7.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.7\\microsoft.aspnetcore.components.5.0.7.nupkg.sha512",

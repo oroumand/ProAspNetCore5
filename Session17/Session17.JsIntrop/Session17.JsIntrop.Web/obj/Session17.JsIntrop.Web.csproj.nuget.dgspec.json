@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj": {}
+    "D:\\Source\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj": {}
   },
   "projects": {
-    "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj": {
+    "D:\\Source\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj",
+        "projectUniqueName": "D:\\Source\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj",
         "projectName": "Session17.JsIntrop.Web",
-        "projectPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj",
+        "projectPath": "D:\\Source\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\Session17.JsIntrop.Web.csproj",
         "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "G:\\Src\\NET 5 Courses\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\obj\\",
+        "outputPath": "D:\\Source\\ProAspNetCore5\\Session17\\Session17.JsIntrop\\Session17.JsIntrop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://baget.navoshgaran.com/v3/index.json": {},
-          "http://localhost:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

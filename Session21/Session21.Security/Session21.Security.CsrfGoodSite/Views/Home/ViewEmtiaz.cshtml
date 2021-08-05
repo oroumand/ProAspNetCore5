@@ -1,0 +1,14 @@
+﻿@model Session21.Security.CsrfGoodSite.Models.Customer
+
+<div>
+    <h1>
+        @Model.Name
+    </h1>
+    <h2>
+        @Model.Emtiaz
+    </h2>
+</div>
+<form asp-action="Transfer" method="post">
+    <input type="text" name="destination" />
+    <input type="submit" value="Save" />
+</form>

@@ -1,0 +1,8 @@
+﻿@model Session21.Security.GoodOpenRedirect.Controllers.LoginModel
+
+<form method="post">
+    <input type="text" asp-for="UserName" />
+    <input type="password" asp-for="Password" />
+    <input type="hidden" asp-for="ReturnUrl" />
+    <input type="submit" value="Login"/>
+</form>
