@@ -1,0 +1,22 @@
+﻿@model CreateUserModel
+<form method="post" asp-action="Create" asp-controller="Users">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label asp-for="UserName"></label>
+        <input type="text" class="form-control" asp-for="UserName" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input type="text" class="form-control" asp-for="Email" />
+    </div>
+    <div class="form-group">
+        <label asp-for="SSN"></label>
+        <input type="text" class="form-control" asp-for="SSN" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input type="text" class="form-control" asp-for="Password" />
+    </div>
+    <input type="submit" class="btn btn-success" value="Create" />
+    <input type="reset" class="btn btn-danger" value="Reset" />
+</form>

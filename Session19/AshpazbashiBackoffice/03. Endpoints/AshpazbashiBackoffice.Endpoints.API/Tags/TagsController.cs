@@ -47,7 +47,7 @@ namespace AshpazbashiBackoffice.Endpoints.API.Tags
             return StatusCode(204, result);
         }
         [HttpGet("/find")]
-        public async Task<ActionResult> Find(FindTagQuery findTagQuery)
+        public async Task<ActionResult> Find([FromQuery]FindTagQuery findTagQuery)
         {
             var result = await mediator.Send(findTagQuery);
             return Ok(result);

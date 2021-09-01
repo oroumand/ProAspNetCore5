@@ -1,0 +1,10 @@
+﻿@model CreateRoleModel
+<form method="post" asp-action="Create" asp-controller="Roles">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label asp-for="RoleName"></label>
+        <input type="text" class="form-control" asp-for="RoleName" />
+    </div>   
+    <input type="submit" class="btn btn-success" value="Create" />
+    <input type="reset" class="btn btn-danger" value="Reset" />
+</form>

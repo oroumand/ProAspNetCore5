@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RA+iOoaYxz/qTGGT+qCBVYY3+02G+1EjCWdUDMYNjK1MXGWRVon6IVS8swF+vPIpZ4M0UEttLQDRW7nEpfU+kA==",
+  "dgSpecHash": "jVnLrnb6oevgxvHnUtz4qHPxRF4snrDwEYjt0zHJxAUCBW1ZduIpiiVtIcEFdDHFCYTQp+0JHvyknt/r/qpohQ==",
   "success": true,
   "projectFilePath": "D:\\Source\\ProAspNetCore5\\Session19\\Ashpazbashi.BackofficeUI\\02. Endpoint\\Ashpazbashi.BackofficeUI.Web\\Ashpazbashi.BackofficeUI.Web.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.7\\microsoft.jsinterop.webassembly.5.0.7.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.7\\microsoft.netcore.app.runtime.browser-wasm.5.0.7.nupkg.sha512"
+    "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.8\\microsoft.netcore.app.runtime.browser-wasm.5.0.8.nupkg.sha512"
   ],
   "logs": []
 }

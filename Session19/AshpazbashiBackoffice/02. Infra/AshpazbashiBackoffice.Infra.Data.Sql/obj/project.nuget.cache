@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "75P42bFT52gL4UQSNGGgUbRMAoGf/txp1DpmODHXsLBC/LmI3YMj6KCWEhNvKCv5bEKbOkka+JOgx++IBw7UWw==",
+  "dgSpecHash": "g9YuDK7sQq6B5SYZizU6PLS22VsflAHiQoD2xshVWdI9KoTnVI8hXQO7niQuO/bNcze+z1d4lP95XV+DmTGoBw==",
   "success": true,
   "projectFilePath": "D:\\Source\\ProAspNetCore5\\Session19\\AshpazbashiBackoffice\\02. Infra\\AshpazbashiBackoffice.Infra.Data.Sql\\AshpazbashiBackoffice.Infra.Data.Sql.csproj",
   "expectedPackageFiles": [
